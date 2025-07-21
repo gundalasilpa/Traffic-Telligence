@@ -2,7 +2,48 @@ body {
     background-image: url('assets/pexels-107932638-33074314.jpg');
     background-size: cover;
     background-position: center;
-    text-align: center;
-    color: white;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container h2 {
+    margin-bottom: 20px;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
 }
